@@ -1,0 +1,43 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: #fdf6f0;
+  font-family: 'Lato', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+@keyframes petalFall {
+  0%   { transform: translateY(-20px) rotate(0deg) translateX(0); opacity: 0; }
+  10%  { opacity: 1; }
+  90%  { opacity: 0.8; }
+  100% { transform: translateY(110vh) rotate(720deg) translateX(40px); opacity: 0; }
+}
+
+@keyframes floatCup {
+  from { transform: translateY(0px); }
+  to   { transform: translateY(-12px); }
+}
+
+@keyframes fadeSlideDown {
+  from { opacity: 0; transform: translateY(-20px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes fadeSlideUp {
+  from { opacity: 0; transform: translateY(30px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes rotatePetal {
+  from { transform: rotate(0deg); }
+  to   { transform: rotate(360deg); }
+}
