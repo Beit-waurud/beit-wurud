@@ -1,13 +1,10 @@
 {
   "files": {
-    "main.css": "/beit-wurud/static/css/main.d6232c03.css",
-    "main.js": "/beit-wurud/static/js/main.513ce711.js",
+    "main.js": "/beit-wurud/static/js/main.bf1ae75f.js",
     "index.html": "/beit-wurud/index.html",
-    "main.d6232c03.css.map": "/beit-wurud/static/css/main.d6232c03.css.map",
-    "main.513ce711.js.map": "/beit-wurud/static/js/main.513ce711.js.map"
+    "main.bf1ae75f.js.map": "/beit-wurud/static/js/main.bf1ae75f.js.map"
   },
   "entrypoints": [
-    "static/css/main.d6232c03.css",
-    "static/js/main.513ce711.js"
+    "static/js/main.bf1ae75f.js"
   ]
 }
