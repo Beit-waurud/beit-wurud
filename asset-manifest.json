@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.js": "/beit-wurud/static/js/main.bf1ae75f.js",
+    "main.js": "/beit-wurud/static/js/main.1862108c.js",
     "index.html": "/beit-wurud/index.html",
-    "main.bf1ae75f.js.map": "/beit-wurud/static/js/main.bf1ae75f.js.map"
+    "main.1862108c.js.map": "/beit-wurud/static/js/main.1862108c.js.map"
   },
   "entrypoints": [
-    "static/js/main.bf1ae75f.js"
+    "static/js/main.1862108c.js"
   ]
 }
