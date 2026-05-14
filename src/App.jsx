@@ -272,7 +272,6 @@ function QuickNav({ active }) {
 
   return (
     <div style={{
-      position: "sticky",
       top: "90px",
       zIndex: 50,
       display: "flex",
@@ -520,8 +519,9 @@ export default function BeitWurud() {
 
       {/* ── NAVBAR ── */}
       <nav style={{
+        position: "sticky",
         top: 0,
-        zIndex: 2,
+        zIndex: 100,
         background: scrolled ? "rgba(253,246,240,0.92)" : "transparent",
         backdropFilter: scrolled ? "blur(12px)" : "none",
         boxShadow: scrolled ? "0 2px 20px rgba(193,123,90,0.12)" : "none",
